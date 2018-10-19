@@ -11,7 +11,7 @@ import javax.ws.rs.core.MediaType;
 import csye6225.assignment1.datamodel.Program;
 import csye6225.assignment1.service.ProgramService;
 
-@Path("programs")
+@Path("program")
 public class ProgramResource {
 
 	private static ProgramService programs = new ProgramService();

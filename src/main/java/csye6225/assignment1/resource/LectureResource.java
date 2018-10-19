@@ -9,6 +9,7 @@ import javax.ws.rs.core.MediaType;
 import csye6225.assignment1.datamodel.Lecture;
 import csye6225.assignment1.service.LectureService;
 
+@Path("lecture")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 

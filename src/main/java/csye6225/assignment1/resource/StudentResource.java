@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 import csye6225.assignment1.datamodel.Student;
 import csye6225.assignment1.service.StudentService;
 
-
+@Path("student")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 public class StudentResource {

@@ -15,7 +15,7 @@ import javax.ws.rs.core.MediaType;
 import csye6225.assignment1.datamodel.Course;
 import csye6225.assignment1.service.CourseService;
 
-@Path("/")
+@Path("/course")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 public class CourseResource {
