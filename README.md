@@ -249,7 +249,9 @@ http://lanlan.us-west-2.elasticbeanstalk.com/webapi/program/1
 2. POST 
 
 http://lanlan.us-west-2.elasticbeanstalk.com/webapi/program
+
 body: 
+
 {"programName":"information science",
 	"courses":[
 		{"courseId": "cloud computing"},
@@ -260,6 +262,7 @@ body:
 http://lanlan.us-west-2.elasticbeanstalk.com/webapi/program/1 
 
 Body: 
+
 {“programName”:"Electronic Engineer",
 	"courses":[
 		{"courseId": “digital"},
