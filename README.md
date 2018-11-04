@@ -3,7 +3,7 @@
 github link: https://github.com/Cathylan/Cloud-Computing-fall2018
 
  
-<Student>
+Student
 
 1. GET
     http://lanlan.us-west-2.elasticbeanstalk.com/webapi/student
@@ -28,11 +28,13 @@ github link: https://github.com/Cathylan/Cloud-Computing-fall2018
       {
            “studentName”: ”Lanlan”
        }
+       
 4.DELETE
+
     http://lanlan.us-west-2.elasticbeanstalk.com/webapi/student/2
 
 
-<Professor>
+Professor
 
 1. GET
     http://lanlan.us-west-2.elasticbeanstalk.com/webapi/professor
@@ -58,7 +60,7 @@ github link: https://github.com/Cathylan/Cloud-Computing-fall2018
     http://lanlan.us-west-2.elasticbeanstalk.com/webapi/professor/1
 
 
-<Course>
+Course
 
 1. GET
     http://lanlan.us-west-2.elasticbeanstalk.com/webapi/course
@@ -202,10 +204,11 @@ github link: https://github.com/Cathylan/Cloud-Computing-fall2018
         ]
     }
 } 
+
 4.DELETE: 
 http://lanlan.us-west-2.elasticbeanstalk.com/webapi/course/csye6225
 
-<Lecture>
+Lecture
 1. GET
    http://lanlan.us-west-2.elasticbeanstalk.com/webapi/lecture
 http://lanlan.us-west-2.elasticbeanstalk.com/webapi/lecture/1 
@@ -230,8 +233,9 @@ http://lanlan.us-west-2.elasticbeanstalk.com/webapi/lecture/1
   http://lanlan.us-west-2.elasticbeanstalk.com/webapi/lecture/1 
 
 
-<Program>
-GET 
+Program
+
+1. GET 
 http://lanlan.us-west-2.elasticbeanstalk.com/webapi/program
 http://lanlan.us-west-2.elasticbeanstalk.com/webapi/program/1
 
