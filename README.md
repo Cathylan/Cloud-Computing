@@ -11,6 +11,7 @@ Student
  
 2. POST
      http://lanlan.us-west-2.elasticbeanstalk.com/webapi/student
+     
      body:
      {
         "courses": [
@@ -24,6 +25,7 @@ Student
 
 3.PUT
       http://lanlan.us-west-2.elasticbeanstalk.com/webapi/student/2
+      
       body:
       {
            “studentName”: ”Lanlan”
