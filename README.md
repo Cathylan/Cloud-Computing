@@ -136,6 +136,7 @@ Course
         ]
     }
 }
+
 3.PUT
       http://lanlan.us-west-2.elasticbeanstalk.com/webapi/course/csye6225
       body:
