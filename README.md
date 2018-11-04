@@ -139,7 +139,9 @@ Course
 
 3.PUT
       http://lanlan.us-west-2.elasticbeanstalk.com/webapi/course/csye6225
+      
       body:
+      
      {
     "TA": {
         "studentName": “Jing Fu"
@@ -217,6 +219,7 @@ http://lanlan.us-west-2.elasticbeanstalk.com/webapi/lecture/1
    
 2. POST
      http://lanlan.us-west-2.elasticbeanstalk.com/webapi/lecture
+     
      body:
      {
         "associateMaterial": "CC150",
